@@ -19,10 +19,7 @@ header h1 {
     padding-top: 20px;
     font-family: 'Fredericka the Great', cursive;
     font-size: 2.5em;
-<<<<<<< HEAD
     
-=======
->>>>>>> afcc60463f332088f4456f771c5174a82a40cb08
 }
 p {
     font-family: helvetica;
@@ -53,31 +50,8 @@ footer ul li a {
 }
 footer h1 p {
     color: black;
-<<<<<<< HEAD
-=======
 }
 
-/*responsive Design layouts this is a media query*/
-
-@media only screen and (max-width: 957px) {
-    footer{
-        height: 450px
-    }
->>>>>>> afcc60463f332088f4456f771c5174a82a40cb08
-}
-
-/* second media query to make everything on its own row when screen gets bellow 753px*/
-
-@media only screen and (max-width: 760px) {
-.one, .two, .three, .three2, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven {
-    width: 100% !important;    
-    margin-left: 0;
-    padding: 10px;
-}
-p{
-    font-size: 1em !important;
-}
-}
 
 
 
@@ -114,7 +88,6 @@ nav ul li a {
 /*profile images*/
 
 .art-flyer img {
-<<<<<<< HEAD
     
     background: #76232f;
     height: 330px;
@@ -122,16 +95,10 @@ nav ul li a {
     opacity: .8;
    float: center;
 
-=======
-    object-fit: cover;
-    height:300px;
-    width: 400px;
->>>>>>> afcc60463f332088f4456f771c5174a82a40cb08
 }
 .first-column-p {
     padding-top: 41px;
 }
-<<<<<<< HEAD
 .text1 {
     background: maroon;
     font-size:1.7em;
@@ -147,8 +114,6 @@ nav ul li a {
     
 }
 
-=======
->>>>>>> afcc60463f332088f4456f771c5174a82a40cb08
 /*end of profile image css*/
 
 .hero-image-container {
@@ -175,15 +140,12 @@ nav ul li a {
     text-align: center;
     
 }
-<<<<<<< HEAD
 .content-3-columns2 {
     padding-top: 40px;
     padding-bottom: 40px;
     text-align: center;
     
 }
-=======
->>>>>>> afcc60463f332088f4456f771c5174a82a40cb08
 .left-column-home {
     background: #76232f;
     height: 350px;
@@ -271,15 +233,9 @@ nav ul li a {
 
 .three2 {
     
-<<<<<<< HEAD
 	
 	float:left;
     
-=======
-	width: 23.5%;
-	float:left;
-    margin-left: 4%;
->>>>>>> afcc60463f332088f4456f771c5174a82a40cb08
     padding-left: 70px;
 }
 .two {
@@ -370,7 +326,6 @@ nav ul li a {
 .my-form input[type="text"], .my-form textarea{
     padding:8px;
     width:50%;
-<<<<<<< HEAD
 }
 
 /*responsive Design layouts this is a media query*/
@@ -556,7 +511,10 @@ nav ul li a {
         text-align: center;
         padding: 10px;
         margin: 10px;
+    
+        
         float: inline-start;
+        
     }
     .art-flyer img {
     
@@ -567,7 +525,8 @@ nav ul li a {
         margin:30px;
         opacity: .8;
        float: center;
-    } 
-=======
->>>>>>> afcc60463f332088f4456f771c5174a82a40cb08
+    
+    }
+    
 }
+
