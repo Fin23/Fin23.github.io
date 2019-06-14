@@ -19,6 +19,10 @@ header h1 {
     padding-top: 20px;
     font-family: 'Fredericka the Great', cursive;
     font-size: 2.5em;
+<<<<<<< HEAD
+    
+=======
+>>>>>>> afcc60463f332088f4456f771c5174a82a40cb08
 }
 p {
     font-family: helvetica;
@@ -49,6 +53,8 @@ footer ul li a {
 }
 footer h1 p {
     color: black;
+<<<<<<< HEAD
+=======
 }
 
 /*responsive Design layouts this is a media query*/
@@ -57,6 +63,7 @@ footer h1 p {
     footer{
         height: 450px
     }
+>>>>>>> afcc60463f332088f4456f771c5174a82a40cb08
 }
 
 /* second media query to make everything on its own row when screen gets bellow 753px*/
@@ -71,6 +78,9 @@ p{
     font-size: 1em !important;
 }
 }
+
+
+
 
 /* nav bar styles*/
 
@@ -104,14 +114,41 @@ nav ul li a {
 /*profile images*/
 
 .art-flyer img {
+<<<<<<< HEAD
+    
+    background: #76232f;
+    height: 330px;
+    padding: 4px ;
+    opacity: .8;
+   float: center;
+
+=======
     object-fit: cover;
     height:300px;
     width: 400px;
+>>>>>>> afcc60463f332088f4456f771c5174a82a40cb08
 }
 .first-column-p {
     padding-top: 41px;
 }
+<<<<<<< HEAD
+.text1 {
+    background: maroon;
+    font-size:1.7em;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    height:30px;
+    width:300px;
 
+    
+	float: inline-start;
+    
+    
+}
+
+=======
+>>>>>>> afcc60463f332088f4456f771c5174a82a40cb08
 /*end of profile image css*/
 
 .hero-image-container {
@@ -138,6 +175,15 @@ nav ul li a {
     text-align: center;
     
 }
+<<<<<<< HEAD
+.content-3-columns2 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    
+}
+=======
+>>>>>>> afcc60463f332088f4456f771c5174a82a40cb08
 .left-column-home {
     background: #76232f;
     height: 350px;
@@ -225,9 +271,15 @@ nav ul li a {
 
 .three2 {
     
+<<<<<<< HEAD
+	
+	float:left;
+    
+=======
 	width: 23.5%;
 	float:left;
     margin-left: 4%;
+>>>>>>> afcc60463f332088f4456f771c5174a82a40cb08
     padding-left: 70px;
 }
 .two {
@@ -318,4 +370,204 @@ nav ul li a {
 .my-form input[type="text"], .my-form textarea{
     padding:8px;
     width:50%;
+<<<<<<< HEAD
+}
+
+/*responsive Design layouts this is a media query*/
+
+@media only screen and (max-width: 1290px) {
+    
+    .art-flyer img {
+    
+        background: #76232f;
+        height: 500px;
+        width: 500px;
+        margin-right: 200px;
+        padding: 4px ;
+        opacity: .8;
+       float: center;
+    
+    }
+    .three2 {
+        float:right;
+        padding-left: 70px;
+    }
+    .text1 {
+        background: maroon;
+        font-size:1.7em;
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+    height: 30px;
+    width: 390px;
+        
+        float: inline-start;
+        
+        
+    }
+    .content-3-columns2 {
+    
+        padding-top: 40px;
+        padding-bottom: 40px;
+       
+    text-align: left;
+    
+}
+
+ @media only screen and (max-width: 980px) {
+    footer{
+        height: 450px
+    }
+
+    .art-flyer img {
+    
+        background: #76232f;
+        height: 390px;
+        width: 390px;
+        padding: 4px ;
+       
+        opacity: .8;
+       float: center;
+    
+    }
+    .text1 {
+        background: maroon;
+        font-size:1.7em;
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+    height: 30px;
+    width: 390px;
+        
+        float: inline-start;
+        
+        
+    }
+    
+}
+
+ /*second media query to make everything on its own row when screen gets bellow 753px*/
+
+
+
+@media only screen and (max-width: 768px) {
+.one, .two, .three, .three2, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven {
+    width: 100% !important;    
+    margin-left: 0;
+    padding: 10px;
+} 
+header {
+    background: #d7cec7;
+    padding-bottom: 40;
+    width: 100%;
+    position: fixed !important;
+    z-index: 1000;
+    font-size: .4em !important;
+}
+
+p{
+    font-size: 1em !important;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    padding: 0px 15px 0px 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Tangerine', cursive;
+    font-size: 1.3em;
+}
+.art-flyer img {
+    
+    
+    background: #76232f;
+    height: 300px;
+    width: 300px;
+    margin-left: 200px;
+    padding: 4px ;
+    opacity: .8;
+   float: center;
+
+}
+.text1 {
+    background: maroon;
+    font-size:1.7em;
+    text-align: center;
+    padding: 10px;
+    width: 300px;
+    margin: 10px;
+    margin-left: 190px;
+
+    
+    float: inline-start;
+    
+    
+}
+.content-3-columns2 {
+    
+        padding-top: 40px;
+        padding-bottom: 40px;
+       
+    text-align: left;
+}
+
+@media only screen and (max-width: 640px){
+    
+    .one, .two, .three, .three2, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven {
+        width: 100% !important;    
+        margin-left: 0;
+        padding: 10px;
+    } 
+    header {
+        background: #d7cec7;
+        padding-bottom: 40;
+        width: 100%;
+        position: fixed !important;
+        z-index: 1000;
+        font-size: .4em !important;
+    }
+   
+    nav ul {
+        list-style-type: none;
+        text-align: center;
+    }
+    nav ul li {
+        display: inline;
+        padding: 0px 15px 0px 15px;
+    }
+    nav ul li a {
+        text-decoration: none;
+        color: black;
+        font-family: 'Tangerine', cursive;
+        font-size: 1.3em !important;
+    }
+    p{
+        font-size: 1em !important;
+    }
+    .text1 {
+        background: maroon;
+        font-size:1.7em;
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+        float: inline-start;
+    }
+    .art-flyer img {
+    
+        background: #76232f;
+        height: 300px;
+        width: 300px;
+        padding: 4px ;
+        margin:30px;
+        opacity: .8;
+       float: center;
+    } 
+=======
+>>>>>>> afcc60463f332088f4456f771c5174a82a40cb08
 }
